@@ -15,3 +15,8 @@ post '/add_nums' do
   add = add(num1,num2)
 "answer: #{add}"
 end
+
+get '/results' do
+  erb :results
+
+end
